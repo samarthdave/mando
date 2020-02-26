@@ -1,10 +1,8 @@
 <h1 align="center">
 	Mando
-</h1>
-
-<h1 align="center">
+	<br />
 	<img
-		width="300"
+		width="150"
 		alt="Mandalorian"
 		src="https://raw.githubusercontent.com/samarthdave/mando/master/mando.png">
 </h1>
