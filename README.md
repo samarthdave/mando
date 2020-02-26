@@ -6,7 +6,7 @@
 	<img
 		width="300"
 		alt="Mandalorian"
-		src="https://raw.githubusercontent.com/samarthdave/Ouroboros/master/mando.png">
+		src="https://raw.githubusercontent.com/samarthdave/mando/master/mando.png">
 </h1>
 
 <blockquote>
