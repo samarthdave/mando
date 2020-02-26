@@ -4,3 +4,11 @@ ignore/
 # compiled files
 build/
 *.out
+
+# setup.py dist directory
+dist
+doc/build
+doc/cdoc/build
+
+# Egg metadata
+*.egg-info
