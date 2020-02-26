@@ -1,0 +1,6 @@
+# ignore files
+ignore/
+
+# compiled files
+build/
+*.out
