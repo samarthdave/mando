@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mandalorian",
-    version="0.0.1",
+    version="0.0.2",
     author="Cameron Brill",
     author_email="contact@cameronbrill.me",
     description="nand2tetris CLI helper utils",
