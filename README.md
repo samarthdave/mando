@@ -4,7 +4,7 @@
 	<img
 		width="150"
 		alt="Mandalorian"
-		src="https://raw.githubusercontent.com/samarthdave/mando/master/mando.png">
+		src="/mando.png">
 </h1>
 
 <blockquote>
