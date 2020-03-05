@@ -2,18 +2,16 @@ from jpype import startJVM, shutdownJVM, java, addClassPath, JClass, JInt
 import jpype.imports
 
 CLASS_PATH_SUBPATHS = [
-  "tools/buildInChips",
-  "tools/bin/classes",
-  "tools/bin/lib/AssemblerGUI.jar",
-  "tools/bin/lib/Compilers.jar",
-  "tools/bin/lib/Hack.jar",
-  "tools/bin/lib/HackGUI.jar",
-  "tools/bin/lib/Simulators.jar",
-  "tools/bin/lib/SimulatorsGUI.jar",
-  "tools/bin/lib/TranslatorsGUI.jar"
-]
+  "bin/lib/AssemblerGUI.jar",
+  "bin/lib/Compilers.jar",
+  "bin/lib/Hack.jar",
+  "bin/lib/HackGUI.jar",
+  "bin/lib/Simulators.jar",
+  "bin/lib/SimulatorsGUI.jar",
+  "bin/lib/TranslatorsGUI.jar"
+] + [jpype.getClassPath()]
 
-startJVM(classpath=":".join(CLASS_PATH_SUBPATHS), convertStrings=False)
+startJVM(classpath=CLASS_PATH_SUBPATHS, convertStrings=False)
 
 HackController = JClass('Hack.Controller.HackController')
 HackSimulator = JClass('Hack.Controller.HackSimulator')
