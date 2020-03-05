@@ -12,3 +12,11 @@ doc/cdoc/build
 
 # Egg metadata
 *.egg-info
+
+env/
+
+# Custom folders
+nand2tetris/
+
+# MacOS
+*.DS_Store
