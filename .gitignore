@@ -17,6 +17,7 @@ env/
 
 # Custom folders
 nand2tetris/
+*.zip
 
 # MacOS
 *.DS_Store
