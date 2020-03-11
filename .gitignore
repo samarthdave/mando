@@ -12,3 +12,11 @@ doc/cdoc/build
 
 # Egg metadata
 *.egg-info
+
+# pycache
+**/__pycache__
+**.pyc
+
+# virtualenv
+venv
+virtualenv
